@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te amo mucho, mucho y perdón</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('fondo.jpg'); /* Ruta de la imagen de fondo */
+            background-size: cover; /* Cubre toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-attachment: fixed; /* Fija la imagen cuando se hace scroll */
+            margin: 0;
+            padding: 0;
+            color: white; /* Cambié el color del texto para que se vea mejor */
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Ajusta para que sea responsive */
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente negro */
+            border-radius: 10px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .text {
+            flex: 1 1 50%; /* Ocupa la mitad del espacio */
+            padding-right: 20px;
+            text-align: justify;
+        }
+
+        .text h1 {
+            color: #e74c3c;
+        }
+
+        .text .message {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #e74c3c;
+            text-align: center;
+        }
+
+        .text .signature {
+            margin-top: 20px;
+            font-size: 22px;
+            color: #f1c40f;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .image {
+            flex: 1 1 40%; /* La imagen ocupa menos espacio */
+            text-align: center;
+        }
+
+        .image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .text {
+                padding-right: 0;
+            }
+
+            .image img {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Texto -->
+        <div class="text">
+            <h1>Te amo mucho y perdón</h1>
+            <p>
+                Hola gordito, yo sé que hemos pasado muchas cosas, pero quiero que sepas que yo te amo mucho y si no sabes lo arrepentida que estoy en haber tenido comportamientos diferentes contigo, solo quiero que no dudes del amor que siento por ti.
+            </p>
+            <p>
+                Sé que ambos hemos cometido errores y no importa si han sido muchos o pocos, de lo que sí estoy segura es que quiero que me perdones. Jamás quise hacer algo que te dañara, ya que al dañarte a ti me dañé yo misma. Digo "yo misma" porque cambié el pensamiento que tenías de mí, porque te decepcioné. Pero quiero que sepas que no volvería a hacerte daño, me duele mucho que una tercera persona sepa de algo que tu y yo solo sabiamos pero se que quiza por tu colera pero sabes algo eso no me hace menos que alguien soy una persona y que cometemos errores pero tampoco me parece que me señalen aqui la unica boca que me importa lo que piense o hable es de ti eres lo unico que yo tengo eres mi familia y me siento mal conmigo misma te amo infinitamente.
+            </p>
+            <p>
+                Ya no quiero que pienses mal, haré de todo para que te quites ese pensamiento acerca de mí. Te amo y mucho. Ten por seguro que no quiero que te vayas de mi vida, nunca te necesitamos mucho.
+            </p>
+            <div class="message">Te Amo, siempre.</div>
+            <div class="signature">Con amor, Louxiana</div>
+        </div>
+
+        <!-- Imagen -->
+        <div class="image">
+            <img src="imagen.jpg" alt="Imagen de amor">
+        </div>
+    </div>
+
+</body>
+</html>
